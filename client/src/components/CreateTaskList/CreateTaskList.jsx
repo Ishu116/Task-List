@@ -98,7 +98,7 @@ const CreateTaskList = () => {
                     </div>
                     <div>
                       <form className='form--List' method='POST'>
-                        <div>
+                        <div className='checkbox-div'>
                           <input className='checkbox-btn' type="checkbox" onChange={() => handleCheckboxChange(_id)} />
                         </div>
                       </form>
